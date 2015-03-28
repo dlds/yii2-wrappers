@@ -1,0 +1,26 @@
+{
+    "name": "dlds/yii2-wrappers",
+    "description": "Yii2 extension contains various wrappers",
+    "keywords": ["yii2", "wrappers", "helpers", "wrappers", "extension"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/dlds/yii2-wrappers/issues",
+        "wiki": "https://github.com/dlds/yii2-wrappers/wiki",
+        "source": "https://github.com/dlds/yii2-wrappers"
+    },
+    "authors": [
+        {
+            "name": "Jiri Svoboda",
+            "email": "jiri.svoboda@dlds.cz"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dlds\\wrappers\\": ""
+        }
+    }
+}
